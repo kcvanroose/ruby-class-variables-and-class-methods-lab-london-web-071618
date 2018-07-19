@@ -13,8 +13,8 @@ class Song
     @@count += 1
   end
   
-  def count
-    @@count
+  def count(count)
+    @@count = count
   end
   
 end
