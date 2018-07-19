@@ -35,7 +35,7 @@ class Song
     freq_hash = Hash.new(0)
     @@genres.each { |x| freq_hash[x] +=1}
   end
-  binding.pry
   
-  Song.new("Lucifer", "Jay-Z", "rap" )
+  
+  #Song.new("Lucifer", "Jay-Z", "rap" )
 end
