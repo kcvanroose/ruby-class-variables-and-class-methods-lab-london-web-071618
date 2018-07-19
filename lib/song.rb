@@ -30,6 +30,10 @@ class Song
   def self.genres
     @@genres.uniq
   end
+  
+  def self.genres_count
+    @@genres
+  end
   binding.pry
   
   Song.new("Lucifer", "Jay-Z", "rap" )
