@@ -32,6 +32,7 @@ class Song
   end
   
   def self.genres_count
+    freq_hash = hash.new
     @@genres
   end
   binding.pry
