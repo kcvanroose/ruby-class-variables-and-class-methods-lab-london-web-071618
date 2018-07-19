@@ -31,4 +31,6 @@ class Song
     @@genres.uniq
   end
   binding.pry
+  
+  Song.new()
 end
