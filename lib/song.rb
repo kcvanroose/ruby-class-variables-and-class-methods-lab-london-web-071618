@@ -29,5 +29,5 @@ class Song
   def self.genres
     @@genres.uniq
   end
-  
+  binding.pry
 end
