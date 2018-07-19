@@ -37,6 +37,11 @@ class Song
     freq_hash
   end
   
+  def self.artist_count
+    freq_hash = Hash.new(0)
+    @@artists.each { |x| freq_hash[x] +=1}
+    freq_hash
+  end
   
   #Song.new("Lucifer", "Jay-Z", "rap" )
 end
