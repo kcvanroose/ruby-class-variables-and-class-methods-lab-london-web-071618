@@ -32,5 +32,5 @@ class Song
   end
   binding.pry
   
-  Song.new()
+  Song.new("Lucifer", "Jay-Z", "rap" )
 end
